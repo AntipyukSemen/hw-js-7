@@ -1,22 +1,18 @@
-const lang = "ua";
+let message = 'hello world';
 
-switch (lang) {
-  case "ua":
-    console.log("Січень");
-    break;
+// message = 5;
 
-  case "en":
-    console.log("January");
-    break;
-
-  case "ru":
-    console.log("");
-    break;
-
-  case "fr":
-    console.log("Janvier");
-    break;
-
-  default:
-    console.log("Неможливо перевести");
+if (true) {
+  // message = 3;
+  console.log(message);
 };
+
+console.log(message);
+
+if (true) {
+  let message2 = 'bye world';
+  message2 = 'block scope';
+  console.log(message2);
+};
+
+console.log(message2);
