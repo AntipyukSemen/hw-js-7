@@ -1,18 +1,18 @@
-let message = 'hello world';
+// let message = 'hello world';
 
-// message = 5;
+// // message = 5;
 
-if (true) {
-  // message = 3;
-  console.log(message);
-};
+// if (true) {
+//   // message = 3;
+//   console.log(message);
+// };
 
-console.log(message);
+// console.log(message);
 
-if (true) {
-  let message2 = 'bye world';
-  message2 = 'block scope';
-  console.log(message2);
-};
+// if (true) {
+//   let message2 = 'bye world';
+//   message2 = 'block scope';
+//   console.log(message2);
+// };
 
-console.log(message2);
+// console.log(message2);
